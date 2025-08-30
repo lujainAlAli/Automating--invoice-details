@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Auto Invoice</title>
+    <body>
+        <h1>Website name</h1>
+        <div>
+            <form action="{{url_for("home")}}" method="post">
+                <label>date</label>
+                <input id="date" type="datetime-local" name="date"placeholder='add current date'>
+                <br>
+                <label>Upload reciept photo</label>
+                <input id="pic" type="file" name="pic" >
+                <br>
+                <label for="location">Location</label>
+                <select  name="locations" id="locations" onchange="add_loc(event)" placeholder="location">
+                    <option>Carrefour</option>
+                    <option>Waitrose</option>
+                    <option>Spinneys</option>
+                    <option>coop</option>
+                    <option>other</option>
+                </select>
+                <br>
+                <label for="new-loc">Add New location:</label>
+                <input type="text" id="new-loc">
+                <br>
+                <label>total Amount:</label>
+                <input id="amt" type="number" name="amt">
+                <br>
+                <label> Invoice number</label>
+                <input  id="invoice" type="number" name="invoice">
+                <br>
+                <button type="submit" value="submit">Submit</button>
+                <button type="submit" value="conv-excel">Convert to Excel sheet</button>
+            </form>
+        </div>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>

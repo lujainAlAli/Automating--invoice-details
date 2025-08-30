@@ -1,0 +1,23 @@
+{
+  "name": "automating--invoice-details",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lujainAlAli/Automating--invoice-details.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lujainAlAli/Automating--invoice-details/issues"
+  },
+  "homepage": "https://github.com/lujainAlAli/Automating--invoice-details#readme",
+  "dependencies": {
+    "llama-ocr": "^0.0.6"
+  }
+}

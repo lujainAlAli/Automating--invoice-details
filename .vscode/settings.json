@@ -1,0 +1,16 @@
+{
+    "liveServer.settings.port": 5501,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "punctuation.definition.string.begin.html",
+                    "punctuation.definition.string.end.html"
+                ],
+                "settings": {
+                    "foreground": "#e622c8"
+                }
+            }
+        ]
+    }
+}
